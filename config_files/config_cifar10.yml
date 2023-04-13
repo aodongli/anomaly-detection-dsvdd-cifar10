@@ -1,0 +1,10 @@
+device: cuda
+model: dsvdd_lenet
+trainer: dsvdd_trainer
+loss: dsvdd_loss
+optim: adam
+learning_rate: 0.0001
+l2: 0.
+epoch: 100
+batch_size: 256
+exp_path: results/
